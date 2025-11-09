@@ -12,7 +12,8 @@
     "enabled": true,
     "indentStyle": "space",
     "lineWidth": 80,
-    "indentWidth": 2
+    "indentWidth": 2,
+    "attributePosition": "auto"
   },
   "linter": {
     "enabled": true,
@@ -23,7 +24,9 @@
   "javascript": {
     "formatter": {
       "quoteStyle": "single",
-      "trailingCommas": "none"
+      "trailingCommas": "none",
+      "jsxQuoteStyle": "double",
+      "bracketSameLine": false
     }
   },
   "assist": {
