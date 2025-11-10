@@ -1,6 +1,6 @@
 'use client';
 
-import useLocalStorage from '@/hooks/useLocalStorage';
+import useLocalStorage from '@/src/hooks/useLocalStorage';
 
 export default function BemVindoPage() {
   const [name, setName] = useLocalStorage('name', 'Visitante');

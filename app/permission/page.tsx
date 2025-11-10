@@ -1,5 +1,5 @@
-import Settings from '@/components/permission/Settings';
-import withPermission from '@/components/permission/withPermission';
+import Settings from '@/src/components/permission/Settings';
+import withPermission from '@/src/components/permission/withPermission';
 
 export default function PermissionPage() {
   const ProtectedSettings = withPermission(Settings);

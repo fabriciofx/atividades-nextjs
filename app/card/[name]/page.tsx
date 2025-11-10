@@ -2,7 +2,7 @@
 
 import type { ParamValue } from 'next/dist/server/request/params';
 import { useParams } from 'next/navigation';
-import ProfileCard from '@/components/profile-card/ProfileCard';
+import ProfileCard from '@/src/components/profile-card/ProfileCard';
 
 type Person = {
   name: string;

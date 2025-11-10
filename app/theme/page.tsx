@@ -1,5 +1,5 @@
-import OlaMundo from '@/components/ola-mundo/OlaMundo';
-import ThemeProvider from '@/components/theme/ThemeProvider';
+import OlaMundo from '@/src/components/ola-mundo/OlaMundo';
+import ThemeProvider from '@/src/components/theme/ThemeProvider';
 
 export default function ThemePage() {
   return (
