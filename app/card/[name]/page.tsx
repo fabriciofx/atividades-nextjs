@@ -18,7 +18,7 @@ export default function CardPage() {
       {
         name: 'Ana Silva',
         bio: 'Desenvolvedora Frontend apaixonada por Next.JS',
-        imageUrl: `http://localhost:3000/${params.name}.png`
+        imageUrl: `/${params.name}.png`
       }
     ],
     [
@@ -26,7 +26,7 @@ export default function CardPage() {
       {
         name: 'Luis Cordeiro',
         bio: 'Desenvolvedor Frontend apaixonada por React',
-        imageUrl: `http://localhost:3000/${params.name}.png`
+        imageUrl: `/${params.name}.png`
       }
     ]
   ]);

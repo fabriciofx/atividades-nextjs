@@ -19,9 +19,8 @@ export default function ProfileCard({ name, bio, imageUrl }: ProfileCardProps) {
         <Image
           src={imageUrl}
           alt={`${name} profile`}
-          unoptimized
-          width={128}
-          height={128}
+          width="128"
+          height="128"
           className="
             rounded-full object-cover border-4 border-indigo-500 shadow-md
           "
