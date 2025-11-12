@@ -143,7 +143,7 @@ export default function AtividadesPage() {
       </p>
       <p>
         <Link
-          href="/card"
+          href="/cards"
           className="text-blue-600 underline hover:text-blue-800"
         >
           Criando um Componente Reutilizável com Props
