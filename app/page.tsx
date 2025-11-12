@@ -159,6 +159,22 @@ export default function AtividadesPage() {
       </p>
       <p>
         <Link
+          href="/bem-vindo"
+          className="text-blue-600 underline hover:text-blue-800"
+        >
+          Criar um Hook Customizado de Local Storage
+        </Link>
+      </p>
+      <p>
+        <Link
+          href="/theme"
+          className="text-blue-600 underline hover:text-blue-800"
+        >
+          Compartilhar Tema com Context API
+        </Link>
+      </p>
+      <p>
+        <Link
           href="/livraria"
           className="text-blue-600 underline hover:text-blue-800"
         >
