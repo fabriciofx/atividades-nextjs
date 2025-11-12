@@ -61,7 +61,6 @@ export class CarrinhoLivros implements Carrinho {
     if (quantidade <= 0) {
       return new CarrinhoLivros(this.estoque, diff);
     } else {
-      const diff = this.array.filter((cur) => cur.livro.id !== item.livro.id);
       return new CarrinhoLivros(this.estoque, [
         ...diff,
         {
