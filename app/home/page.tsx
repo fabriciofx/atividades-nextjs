@@ -7,7 +7,12 @@ const Home = () => {
     <div>
       <h1>Home!!!</h1>
       <p>
-        <Link href="/about">Sobre nós</Link>
+        <Link
+          href="/about"
+          className="text-blue-600 underline hover:text-blue-800"
+        >
+          Sobre nós
+        </Link>
       </p>
     </div>
   );
