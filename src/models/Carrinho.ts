@@ -19,7 +19,9 @@ export class CarrinhoLivros implements Carrinho {
   }
 
   itens(): ReadonlyArray<Item> {
-    return this.array;
+    return this.array.sort((a, b) =>
+      a.livro.titulo.localeCompare(b.livro.titulo)
+    );
   }
 
   adiciona(item: Item): Carrinho {
