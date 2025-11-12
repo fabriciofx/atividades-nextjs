@@ -2,8 +2,6 @@
 
 import Todo from '@/src/components/todo/Todo';
 
-const TodoPage: React.FC = () => {
+export default function TodoPage() {
   return <Todo />;
-};
-
-export default TodoPage;
+}

@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 
-const Contador: React.FC = () => {
+export default function Contador() {
   const [contagem, setContagem] = useState<number>(0);
 
   const incrementa = () => {
@@ -31,6 +31,4 @@ const Contador: React.FC = () => {
       </button>
     </div>
   );
-};
-
-export default Contador;
+}

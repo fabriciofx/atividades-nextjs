@@ -5,8 +5,6 @@ export const metadata: Metadata = {
   description: 'Este site é sobre aprender a usar o Next.JS'
 };
 
-const About = () => {
+export default function About() {
   return <h1>About!!!</h1>;
-};
-
-export default About;
+}

@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 
-const Home = () => {
+export default function Home() {
   return (
     <div>
       <h1>Home!!!</h1>
@@ -16,6 +16,4 @@ const Home = () => {
       </p>
     </div>
   );
-};
-
-export default Home;
+}
