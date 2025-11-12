@@ -1,6 +1,6 @@
 # Atividades feitas em Next.JS
 
-[Calculadora de Contagem de Cliques](https://github.com/fabriciofx/atividades-nextjs/tree/main/app/contador)
+[Calculadora de Contagem de Cliques](https://github.com/fabriciofx/atividades-nextjs/tree/main/app/contador/page.tsx)
 
 [Lista de Tarefas Interativa](https://github.com/fabriciofx/atividades-nextjs/tree/main/app/todo)
 
